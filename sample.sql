@@ -1,3 +1,16 @@
+/* Практическое задание #3. */
+/*Создайте дамп базы данных example из предыдущего задания, разверните содержимое дампа в новую базу данных sample.*/
+--Захожу в командную строку в mysql. 
+--Ввожу команду SHOW DATABASES. Вижу базу example, которую я сделала в задании №2.
+--Ввожу команду CREATE DATABASE sample;
+--Выхожу из mysql. Ввожу команду mysqldump example > example.sql.
+--Затем ввожу команду mysql sample < example.sql
+--Проверяем. входим в mysql. Вводим USE sample; и затем SHOW TABLES; Все появилось.
+
+
+
+
+
 -- MySQL dump 10.13  Distrib 8.0.23, for Win64 (x86_64)
 --
 -- Host: localhost    Database: example
