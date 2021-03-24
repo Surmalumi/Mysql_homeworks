@@ -6,6 +6,7 @@
 --Выхожу из mysql. Ввожу команду mysqldump example > example.sql.
 --Затем ввожу команду mysql sample < example.sql
 --Проверяем. входим в mysql. Вводим USE sample; и затем SHOW TABLES; Все появилось.
+--Выхожу из mysql. Ввожу команду mysqldump sample > sample.sql. Файл готов.
 
 
 
